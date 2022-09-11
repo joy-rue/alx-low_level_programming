@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
  * main - the executable function
@@ -9,6 +9,7 @@
  * section header: the section header goes here
  * Return: just zero
  */
+
 int main(void)
 {
 	int n;
@@ -22,4 +23,7 @@ int main(void)
 		printf(" % d is negative\n", n);
 	else
 		printf(" % d is zero\n", n);
+
 	return (0);
+
+}
