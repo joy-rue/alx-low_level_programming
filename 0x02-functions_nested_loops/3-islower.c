@@ -5,7 +5,7 @@
  *
  *  Return: 1 if true and 0 if the letter is not lowercase
  */
-int _islower.c(int c)
+int _islower(int c)
 {
 	if (c >= 'a')
 	{
