@@ -1,4 +1,4 @@
-# includes "main.h"
+# include "main.h"
 
 /**
  * times_table - returns the times table of 9
@@ -11,7 +11,7 @@ void times_table(void)
 	int factor;
 	int factor1;
 
-	for (factor = 0; factor <= nine; factor++)
+	for (factor = 0; factor <= 9; factor++)
 	{
 		for (factor1 = 0; factor1 <= 9; factor1++)
 		{
