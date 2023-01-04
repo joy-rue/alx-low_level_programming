@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -fintel-syntax main.c
+gcc -S -fintel-syntax $CFILE
